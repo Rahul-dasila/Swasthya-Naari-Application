@@ -1,0 +1,22 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.MyApplication" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="android:statusBarColor">#000000</item>
+        <item name="android:navigationBarColor">#FFEBF0</item>
+        <item name="colorButtonNormal">@color/black</item>
+        <item name="android:windowLightStatusBar">false</item>
+    </style>
+    <style name="Base.Theme.navdhara" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <item name="android:statusBarColor">@color/white</item>
+        <item name="android:navigationBarColor">@color/white</item>
+        <item name="colorButtonNormal">@color/black</item>
+        <item name="android:windowLightStatusBar">true</item>
+    </style>
+    <style name="Base.Theme.navdhara2" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <item name="android:statusBarColor">#F5D0E1</item>
+        <item name="android:navigationBarColor">#F5D0E1</item>
+        <item name="android:windowLightStatusBar">true</item>
+    </style>
+
+    <style name="Theme.MyApplication" parent="Base.Theme.MyApplication" />
+</resources>
